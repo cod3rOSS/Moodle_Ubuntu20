@@ -79,13 +79,13 @@ sudo systemctl restart apache2
 #############################################################
 
 ##########################install moodle#####################
-Acces via website: https://download.moodle.org/
 
 mkdir -p /var/moodledata
 chmod -Rf 755 /var/moodledata/
 chown -Rf www-data: /var/moodledata/
 
 cd /usr/local/src
+Acces via website: https://download.moodle.org/
 Download moodle-version.tgz into /usr/local/src
 cp moodle-version.tgz /var/www/html/
 cd /var/www/html/
