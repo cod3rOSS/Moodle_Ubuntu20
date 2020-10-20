@@ -29,7 +29,7 @@ systemctl restart mysql
 mysql 
 -------------------------------config mysql------------------------
 mysql> CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-mysql> CREATE USER moodleuser@localhost IDENTIFIED BY 'Tenlua@b52';
+mysql> CREATE USER moodleuser@localhost IDENTIFIED BY 'passwordmoodle';
 mysql> GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO moodleuser@localhost;
 mysql> FLUSH PRIVILEGES;
 mysql> exit;
