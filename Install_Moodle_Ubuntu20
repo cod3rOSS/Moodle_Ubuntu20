@@ -99,5 +99,5 @@ chon editor: 1. /bin/nano
 */2 * * * *        /usr/bin/php /var/www/html/moodle/admin/cli/cron.php
 */2 * * * *        /usr/bin/php /var/www/html/moodle/admin/cli/purge_caches.php
 
-#############################################################
+###############################################################
 
