@@ -48,8 +48,8 @@ sudo systemctl restart mysql
 ##########################install apache2####################
 sudo apt update
 sudo apt install -y apache2
-sudo systemctl reload apache2 (khoi dong lai van giu ket noi mang)
-sudo systemctl restart apache2 
+sudo systemctl reload apache2 
+#sudo systemctl restart apache2 
 #############################################################
 
 ##########################install PHP########################
