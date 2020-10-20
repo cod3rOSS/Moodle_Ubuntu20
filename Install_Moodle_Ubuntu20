@@ -85,15 +85,15 @@ chmod -Rf 755 /var/moodledata/
 chown -Rf www-data: /var/moodledata/
 
 cd /usr/local/src
-Acces via website: https://download.moodle.org/
-Download moodle-version.tgz into /usr/local/src
+#Acces via website: https://download.moodle.org/
+#Download moodle-version.tgz into /usr/local/src
 cp moodle-version.tgz /var/www/html/
 cd /var/www/html/
 tar -xvf moodle-version.tgz
 chmod -Rf 755 /var/www/html/moodle	
 chown -Rf www-data: /var/www/html/moodle
 
-keep moodle up to date
+#keep moodle up to date
 crontab -u www-data -e
 chon editor: 1. /bin/nano
 */2 * * * *        /usr/bin/php /var/www/html/moodle/admin/cli/cron.php
